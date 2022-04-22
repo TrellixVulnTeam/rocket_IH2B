@@ -35,8 +35,10 @@ module.exports = {
                         plugins: [
                             isDevelopment && require.resolve('react-refresh/babel')
                         ].filter(Boolean),
-                    },              },
+                
+                },              
             },
+            }, 
         
             {
                 test: /\.scss$/ ,
